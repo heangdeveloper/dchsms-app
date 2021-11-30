@@ -1,5 +1,5 @@
 <ol>
-    <li><code>git clone https://github.com/Kimheang-Developer/FRA.git</code></li>
+    <li><code>git clone https://github.com/Kimheang-Developer/dchsms-app.git</code></li>
     <li><code>cd dchsms-app</code></li>
     <li><code>composer update</code></li>
     <li><code>composer install</code></li>
