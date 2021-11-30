@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: KhmerOSbattambang;
+    src: url("http://127.0.0.1:8000/fonts/KhmerOSbattambang.ttf") format("woff2");
+}
+
+@media print {
+    @page {
+        margin-bottom: .5em;
+        margin-left: .5em;
+        margin-right: .6em;
+        margin-top: .5em;
+        size: A5;
+        size: portrait;
+    }
+}
+
+body {
+    font-family: KhmerOSbattambang;
+}
+
+.table #tbl_print_invoice thead {
+    background-color: #2A629C;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}

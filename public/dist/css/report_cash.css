@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: KhmerOSbattambang;
+    src: url("http://127.0.0.1:8000/fonts/KhmerOSbattambang.ttf") format("woff2");
+}
+
+body {
+    font-family: KhmerOSbattambang;
+}
+
+.header-area {
+	width: 100%;
+}
+.header-area .logo {
+	float: left;
+	width: 30%;
+}
+.header-area .logo img {
+	width: 3.06cm;
+	margin-left: 50px;
+}
+.header-area .top-title {
+	float: left;
+	width: 70%;
+	margin-left: -75px;
+}
+.header-area .top-title h1 {
+	font-family: Khmer OS Muol;
+	font-size: 15pt;
+    color: green;
+	text-align: center;
+
+}
+.header-area .top-title h3 {
+	font-family: Copperplate Gothic;
+	font-size: 16pt;
+	color: green;
+	text-align: center;
+}
+
+#cash_collection_report {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+#cash_collection_report td, #cash_collection_report th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#cash_collection_report thead th {
+    text-align: center;
+    color: #000;
+}
+#cash_collection_report thead th:nth-child(1) {
+    width: 20%;
+}
+#cash_collection_report thead th:nth-child(2) {
+    width: 15%;
+}
+#cash_collection_report thead th:nth-child(4) {
+    width: 15%;
+}
+#cash_collection_report thead th:nth-child(5) {
+    width: 13%;
+}
+
+#cash_collection_report tbody td {
+    font-size: 12px;
+    color: rgb(19, 19, 19);
+}
