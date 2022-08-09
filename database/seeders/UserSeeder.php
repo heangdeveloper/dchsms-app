@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
 
         DB::table('users')->insert([
             'fullname' => 'Kimheang Sim',
-            'username' => 'admin',
+            'name' => 'admin',
             'email' => 'admin@email.com',
             'campus_id' => '1',
             'role_id' => '1',
